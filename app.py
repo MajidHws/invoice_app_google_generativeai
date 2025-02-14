@@ -50,7 +50,7 @@ def get_gemini_response(input, image, prompt):
     return response.text
 
 # add a button
-if st.button("Press me"):
+if st.button("Send"):
     with st.spinner('Waiting for response...'):
         # model = genai.GenerativeModel('gemini-1.5-flash')
         # response = model.generate_content("The opposite of hot is")
